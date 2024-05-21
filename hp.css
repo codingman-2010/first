@@ -1,0 +1,68 @@
+.content {
+    background-color: transparent;
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    font-family: 
+    
+}
+.content div {
+    display: grid; 
+    
+}
+.title {
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+}
+.choices {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: transparent;
+    height: 175px;
+    width: 300px;
+    gap: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+
+}
+ .choices div {
+    background-color: #fdfdfd;
+    border: #fdfdfd 5px solid;
+    border-radius: 20%;
+    align-items:baseline;
+    box-shadow: 2px 2px 4px 0 #ddd;
+    width: 61px;
+    transition-duration: 0.5s;
+    transition-delay: ;
+    transition-property: all;
+  }
+  .choices img {
+    width: 30px;
+    display: grid;
+    margin: auto;
+    color: white;
+    
+
+}
+.tajawal-regular {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h3 {
+    font-size: 8px;
+  }
+  .choices div:hover {
+    size: 15%;
+    color: white;
+    background-color: rgb(183, 40, 138);
+    border-color: rgb(183, 40, 138);
+    cursor: pointer;
+    
+ 
+  }
